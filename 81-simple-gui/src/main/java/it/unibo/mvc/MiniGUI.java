@@ -31,17 +31,28 @@ public class MiniGUI {
     public MiniGUI() {
         final JPanel canvas = new JPanel();
         canvas.setLayout(new BorderLayout());
+        final JPanel canvas1 = new JPanel();
+        canvas1.setLayout(new BoxLayout(canvas1, BoxLayout.X_AXIS));
+        canvas.add(canvas1, BorderLayout.CENTER);
         final JButton write = new JButton("Print a random number on standard output");
-        canvas.add(write, BorderLayout.CENTER);
+        canvas1.add(write);
+        final JTextField result = new JTextField();
+        canvas.add(Result, BorderLayout.NORTH);
         frame.setContentPane(canvas);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+       
+
         /*
          * Handlers
          */
         write.addActionListener(new ActionListener() {
+            
             @Override
             public void actionPerformed(final ActionEvent e) {
-                IO.println(randomGenerator.nextInt());
+            final int randomNumber = randomGenerator.nextInt();
+            IO.println(randomGenerator);
+            result.setText("Random number: " + randomNumber);
             }
         });
     }
