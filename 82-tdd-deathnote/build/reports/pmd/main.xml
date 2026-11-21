@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.28.0" timestamp="2026-11-21T12:52:14.933">
+<file name="C:\Users\ALESSANDRO\Desktop\lab08\82-tdd-deathnote\src\main\java\it\unibo\deathnote\api\impl\DeathNodeImpl.java">
+<violation beginline="27" endline="27" begincolumn="9" endcolumn="60" rule="AvoidThrowingNullPointerException" ruleset="Design" package="it.unibo.deathnote.api.impl" class="DeathNodeImpl" method="writeName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#avoidthrowingnullpointerexception" priority="1">
+Avoid throwing null pointer exceptions.
+</violation>
+<violation beginline="87" endline="89" begincolumn="5" endcolumn="6" rule="SimplifyBooleanReturns" ruleset="Design" package="it.unibo.deathnote.api.impl" class="DeathNodeImpl" method="isNameWritten" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.28.0/pmd_rules_java_design.html#simplifybooleanreturns" priority="3">
+This if statement can be replaced by `return {condition};`
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"it.unibo.deathnote.api.impl","l":"DeathNodeImpl"},{"p":"it.unibo.deathnote.api","l":"DeathNote","k":"10"}];updateSearchResults();

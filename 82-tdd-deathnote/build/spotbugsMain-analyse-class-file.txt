@@ -1,0 +1,2 @@
+C:\Users\ALESSANDRO\Desktop\lab08\82-tdd-deathnote\build\classes\java\main\it\unibo\deathnote\api\DeathNote.class
+C:\Users\ALESSANDRO\Desktop\lab08\82-tdd-deathnote\build\classes\java\main\it\unibo\deathnote\api\impl\DeathNodeImpl.class
